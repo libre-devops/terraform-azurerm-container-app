@@ -53,7 +53,7 @@ module "container_app" {
 
       template = {
         containers = [
-          { name = "web", image = "nginx:1.27-alpine", cpu = 0.25, memory = "0.5Gi" }
+          { name = "web", image = "mcr.microsoft.com/azuredocs/aci-helloworld:latest", cpu = 0.25, memory = "0.5Gi" }
         ]
       }
     }

@@ -87,7 +87,7 @@ module "container_app" {
         containers = [
           {
             name   = "web"
-            image  = "nginx:1.27-alpine"
+            image  = "mcr.microsoft.com/azuredocs/aci-helloworld:latest"
             cpu    = 0.25
             memory = "0.5Gi"
 
